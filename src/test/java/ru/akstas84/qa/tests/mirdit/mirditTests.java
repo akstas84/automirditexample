@@ -52,7 +52,7 @@ public class mirditTests extends TestBase {
     step("Open url 'https://www.mir-dit.ru/development'", () ->
             open("https://www.mir-dit.ru/development"));
 
-    step("Центр разработки «МИР ДАННЫХ ИТ»'", () -> {
+    step("Центр разработки «МИР ДАННЫХ ИТ", () -> {
       String expectedTitle = "Мир данных ИТ | Разработка";
       String actualTitle = title();
 
